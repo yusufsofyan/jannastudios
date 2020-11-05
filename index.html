@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Janna Studios</title>
+  <link rel="shortcut icon" href="assets/img/icon/logogram.png" type="image/x-icon">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="assets/css/style.css"/>
+  <link rel="stylesheet" href="assets/vendors/owlcarousel/owl.carousel.min.css">
+<link rel="stylesheet" href="assets/vendors/owlcarousel/owl.theme.default.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"/>
+</head>
+<body class="bg-cream">
+  
+  <header class="container-fluid fixed-top bg-cream">
+    <div class="container bg-cream">
+      <nav class="navbar navbar-expand-lg navbar-light bg-cream mx-auto mt-3">
+        <a class="navbar-brand" href="#">
+          <img class="logo-lg" src="assets/img/logo/logo-250x90px.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Insigth</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section>
+    <div class="owl-carousel owl-theme">
+      <div class="item" style="background-image: url(assets/img/slider/slider\ 1.png);"><h4>1</h4></div>
+      <div class="item" style="background-image: url(assets/img/slider/a10d9e215ea519e46f3318538daa6d79.png);"><h4>2</h4></div>
+  </div>
+  </section>
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendors/owlcarousel/owl.carousel.min.js"></script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop:true,
+      margin:10,
+      // nav:true,
+      dots: false,
+      items:1
+    })
+  </script>
+</body>
+</html>

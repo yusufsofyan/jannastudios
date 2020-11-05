@@ -1,0 +1,56 @@
+:root{
+  --green: #557574;
+  --cream: #F2EADF;
+  --black: #5E5954;
+  --grey : #BCBEBD;
+}
+
+/* body{
+  height: 1000px;
+} */
+
+/* Master */
+.bg-green { background-color: var(--green); }
+.bg-cream { background-color: var(--cream); }
+.bg-black { background-color: var(--black); }
+.bg-grey { background-color: var(--grey); }
+
+.nav-link{
+  margin-left: 60px;
+}
+
+.logo-lg{ 
+  width: 250px;
+  /* height: 90px; */
+}
+
+.owl-carousel .item {
+  height: 100vh;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.owl-prev{
+  left: 20px;
+}
+
+.owl-next{
+  right: 20px;
+}
+
+.owl-next, .owl-prev{
+  position: absolute;
+  top: 30%;
+  z-index: 99;
+}
+
+.owl-prev span, .owl-next span {
+  font-size: 60px;
+  color: var(--green);
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover{
+  background-color: transparent;
+}
